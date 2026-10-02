@@ -1,6 +1,6 @@
 const DISCOUNTS = [
   { minLessons: 10, percent: 15 },
-  { minLessons: 6, percent: 10 },
+  { minLessons: 5, percent: 10 },
 ];
 
 export function calculatePackagePrice(pricePerLesson, lessonsCount) {
